@@ -1,0 +1,10 @@
+2023-09-03T13:19:57+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\API\OnboardingPlugins::install_plugin() in /var/www/html/epitech/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/InstallJPAndWCSPlugins.php:120
+Stack trace:
+#0 /var/www/html/epitech/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/InstallJPAndWCSPlugins.php(108): Automattic\WooCommerce\Internal\Admin\Notes\InstallJPAndWCSPlugins->install_and_activate_plugin()
+#1 /var/www/html/epitech/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Internal\Admin\Notes\InstallJPAndWCSPlugins->install_jp_and_wcs_plugins()
+#2 /var/www/html/epitech/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#3 /var/www/html/epitech/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /var/www/html/epitech/wp-content/plugins/woocommerce/src/Admin/Notes/Notes.php(367): do_action()
+#5 /var/www/html/epitech/wp-content/plugins/woocommerce/src/Admin/API/NoteActions.php(82): Automattic\WooCommerce\Admin\Notes\Notes::trigger_note_action()
+#6  dans /var/www/html/epitech/wp-content/plugins/woocommerce/src/Internal/Admin/Notes/InstallJPAndWCSPlugins.php à la ligne 120
+
