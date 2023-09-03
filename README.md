@@ -1,1 +1,1 @@
-# score-management-app
+# Online product store
