@@ -1,1 +1,2 @@
-#Epitech- Online product store 
+# Online product store 
+# by @firminApp
